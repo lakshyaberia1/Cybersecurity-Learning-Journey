@@ -1,0 +1,149 @@
+# Day 1 - Linux Networking & OverTheWire Bandit
+
+## What I Learned
+
+### Linux Networking
+
+* What is a NIC (Network Interface Card)
+* Difference between IP Address and MAC Address
+* Understanding network interfaces using `ip a`
+* Meaning of:
+
+  * `lo` (Loopback Interface)
+  * `enp0s3` (Ethernet Interface)
+* Interface states:
+
+  * UP
+  * LOWER_UP
+  * BROADCAST
+  * MULTICAST
+* What is MTU (1500 bytes)
+
+### Routing
+
+* Used `ip route`
+* Learned about:
+
+  * Default Gateway
+  * Routing Table
+  * Packet Path
+
+### Network Management
+
+* Introduction to:
+
+  * NetworkManager
+  * nmcli
+  * nmtui
+
+### Remote Access
+
+* SSH vs Telnet
+* SSH uses Port 22
+* Telnet uses Port 23
+* Why SSH is secure and Telnet is insecure
+
+### NIC Bonding
+
+* Learned Active-Backup mode
+* Purpose:
+
+  * Failover
+  * Redundancy
+* Basic bond configuration using `bond0`
+
+### Linux Commands
+
+* `ip a`
+* `ip route`
+* `ip link`
+* `ssh`
+* `cat`
+* `nano`
+* `systemctl`
+* `grep`
+
+---
+
+## OverTheWire Bandit Progress
+
+Completed:
+
+* Bandit Level 0
+* Bandit Level 1
+* Bandit Level 2
+* Bandit Level 3
+* Bandit Level 4
+
+### Key Lessons
+
+Level 0
+
+* Learned SSH login
+
+Level 1
+
+* Read file named `-`
+
+Level 2
+
+* Read filename containing spaces
+
+Level 3
+
+* Found hidden file using `ls -la`
+
+Level 4
+
+* Successfully logged in and continued progression
+
+---
+
+## Screenshots
+
+### SSH Login (Bandit Level 0)
+
+![Bandit Level 0]
+![](image.png)
+
+### File Named "-"
+
+![Bandit Level 1](images/bandit-level1.png)
+
+### Filename With Spaces
+
+![Bandit Level 2](images/bandit-level2.png)
+
+### Hidden File Discovery
+
+![Bandit Level 3](images/bandit-level3.png)
+
+### Login To Bandit Level 4
+
+![Bandit Level 4](images/bandit-level4.png)
+
+---
+
+## Commands Practiced
+
+```bash
+ip a
+ip route
+nmcli
+nmtui
+ssh
+cat
+nano
+ls -la
+```
+
+## Next Learning Goals
+
+* DNS
+* ARP
+* CIDR Notation
+* TCP Three-Way Handshake
+* tcpdump
+* Wireshark
+* ss command
+* Packet Analysis
